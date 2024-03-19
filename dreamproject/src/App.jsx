@@ -19,6 +19,7 @@ import AdminViewOfUser from "./pages/AdminViewOfUser";
 import AdminViewOfBoatHouse from "./pages/AdminViewOfBoatHouse";
 import { useUserContext } from "./pages/UserContext";
 import YourBookings from "./pages/YourBooking";
+import Payment from "./pages/Payment";
 
 function App() {
   const { isLoggedIn, adminOrUser } = useUserContext();
@@ -68,6 +69,10 @@ function App() {
                         <Route
                           path="/dashboard/your-wishlist"
                           element={<Dashboard rightContent={<YourWishlist />} />}
+                        />
+                        <Route
+                          path="/dashboard/your-payment"
+                          element={<Dashboard rightContent={<Payment />} />}
                         />
                       </>
                     )}

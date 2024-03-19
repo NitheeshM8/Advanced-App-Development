@@ -2,7 +2,7 @@ import '../assets/css/YourWishlist.css';
 function Payment(){
     return (
         <div>
-         <h1>Your Payment is Successfull</h1>   
+        <h1 style={{ textAlign: 'center' }}>All Booking Payments are Successfull</h1>
         </div>
     );
 }

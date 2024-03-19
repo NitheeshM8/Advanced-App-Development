@@ -15,6 +15,8 @@ function Dashboard({rightContent}){
                 <hr/>
                 <Link to="/dashboard/your-wishlist" style={{textDecoration:"none"}}><p className="dashboard-left-contents">Your wishlist</p></Link>
                 <hr/>
+                <Link to="/dashboard/your-payment" style={{textDecoration:"none"}}><p className="dashboard-left-contents">Your Payment</p></Link>
+                <hr/>
                 <div onClick={()=>{logout();navigate("/");}} style={{textDecoration:"none"}}><p className="dashboard-left-contents">Logout</p></div>
                 <hr/>
             </div>
