@@ -25,19 +25,19 @@ function AdminViewOfUser(props){
                         </tr>
                         <tr className="admin-user-view-tr">
                             <td className="admin-user-view-td">User Name</td>
-                            <td className="admin-user-view-td">Shreya</td>
+                            <td className="admin-user-view-td">Nitheesh M</td>
                         </tr>
                         <tr className="admin-user-view-tr">
                             <td className="admin-user-view-td">Email ID</td>
-                            <td className="admin-user-view-td">shreya@gmail.com</td>
+                            <td className="admin-user-view-td">nitheeshn579@gmail.com</td>
                         </tr>
                         <tr className="admin-user-view-tr">
                             <td className="admin-user-view-td">Phone number</td>
-                            <td className="admin-user-view-td">88703 48588</td>
+                            <td className="admin-user-view-td">8610339454</td>
                         </tr>
                         <tr className="admin-user-view-tr">
                             <td className="admin-user-view-td">Address</td>
-                            <td className="admin-user-view-td">Gandhi nagar, Rajasthan</td>
+                            <td className="admin-user-view-td">BK Pudur,Coimbatore</td>
                         </tr>
                     </table>
                 </div>

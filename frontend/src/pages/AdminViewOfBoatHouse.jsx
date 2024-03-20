@@ -5,11 +5,11 @@ import TableUI from '../components/TableUI';
 function AdminViewOfBoatHouse(){
     const header=["User ID", "Username", "Check in", "Check out","Status"];
     const columns=[
-        {"User ID":12345,"Username":"John's Retreat","Check in":"31-01-2024","Check out":"01-02-2024","Status":"Booked"},
-        {"User ID":12345,"Username":"Emma's Escape","Check in":"31-01-2024","Check out":"01-02-2024","Status":"Booked"},
-        {"User ID":12345,"Username":"Michael's Oasis","Check in":"31-01-2024","Check out":"01-02-2024","Status":"Booked"},
-        {"User ID":12345,"Username":"Sophie's Serenity","Check in":"31-01-2024","Check out":"01-02-2024","Status":"Booked"},
-        {"User ID":12345,"Username":"David's Drift","Check in":"31-01-2024","Check out":"01-02-2024","Status":"Booked"}
+        {"User ID":12345,"Username":"John's Retreat","Check in":"17-03-2024","Check out":"19-03-2024","Status":"Booked"},
+        {"User ID":12345,"Username":"Emma's Escape","Check in":"17-03-2024","Check out":"19-03-2024","Status":"Booked"},
+        {"User ID":12345,"Username":"Michael's Oasis","Check in":"17-03-2024","Check out":"19-03-2024","Status":"Booked"},
+        {"User ID":12345,"Username":"Sophie's Serenity","Check in":"17-03-2024","Check out":"19-03-2024","Status":"Booked"},
+        {"User ID":12345,"Username":"David's Drift","Check in":"17-03-2024","Check out":"19-03-2024","Status":"Booked"}
     ];
     const flexRatio=[1,3,1,1,1];
     const query=new URLSearchParams(location.search);
@@ -67,53 +67,6 @@ function AdminViewOfBoatHouse(){
                 </div>
             </div>
             <div className="admin-boat-view-bookings">
-                {/* <Link to={`/admin-dashboard/all-users/user?id=${12345}`}  className="admin-all-users-user">
-                    <div className="admin-all-users-user-data">User ID</div>
-                    <div className="admin-all-users-user-data">Username</div>
-                    <div className="admin-all-users-user-data">Check in</div>
-                    <div className="admin-all-users-user-data">Check out</div>
-                    <div className="admin-all-users-user-data">Status</div>
-                </Link>
-                
-                <Link to={`/admin-dashboard/all-users/user?id=${12345}`}  className="admin-all-users-user">
-                    <div className="admin-all-users-user-data">User ID</div>
-                    <div className="admin-all-users-user-data">Username</div>
-                    <div className="admin-all-users-user-data">Check in</div>
-                    <div className="admin-all-users-user-data">Check out</div>
-                    <div className="admin-all-users-user-data">Status</div>
-                </Link>
-                
-                <Link to={`/admin-dashboard/all-users/user?id=${12345}`}  className="admin-all-users-user">
-                    <div className="admin-all-users-user-data">User ID</div>
-                    <div className="admin-all-users-user-data">Username</div>
-                    <div className="admin-all-users-user-data">Check in</div>
-                    <div className="admin-all-users-user-data">Check out</div>
-                    <div className="admin-all-users-user-data">Status</div>
-                </Link>
-                
-                <Link to={`/admin-dashboard/all-users/user?id=${12345}`}  className="admin-all-users-user">
-                    <div className="admin-all-users-user-data">User ID</div>
-                    <div className="admin-all-users-user-data">Username</div>
-                    <div className="admin-all-users-user-data">Check in</div>
-                    <div className="admin-all-users-user-data">Check out</div>
-                    <div className="admin-all-users-user-data">Status</div>
-                </Link>
-                
-                <Link to={`/admin-dashboard/all-users/user?id=${12345}`}  className="admin-all-users-user">
-                    <div className="admin-all-users-user-data">User ID</div>
-                    <div className="admin-all-users-user-data">Username</div>
-                    <div className="admin-all-users-user-data">Check in</div>
-                    <div className="admin-all-users-user-data">Check out</div>
-                    <div className="admin-all-users-user-data">Status</div>
-                </Link>
-                
-                <Link to={`/admin-dashboard/all-users/user?id=${12345}`}  className="admin-all-users-user">
-                    <div className="admin-all-users-user-data">User ID</div>
-                    <div className="admin-all-users-user-data">Username</div>
-                    <div className="admin-all-users-user-data">Check in</div>
-                    <div className="admin-all-users-user-data">Check out</div>
-                    <div className="admin-all-users-user-data">Status</div>
-                </Link> */}
                 <TableUI header={header} columns={columns} flexRatio={flexRatio}/>
             </div>
         </div>
