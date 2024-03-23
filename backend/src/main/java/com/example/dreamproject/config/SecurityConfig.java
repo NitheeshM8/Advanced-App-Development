@@ -1,9 +1,9 @@
-package com.example.boat.config;
+package com.example.dreamproject.config;
 
 import static org.springframework.security.config.http.SessionCreationPolicy.STATELESS;
-import static com.example.boat.utils.MyConstant.HEADERS;
-import static com.example.boat.utils.MyConstant.METHODS;
-import static com.example.boat.utils.MyConstant.ORIGINS;
+import static com.example.dreamproject.utils.MyConstant.HEADERS;
+import static com.example.dreamproject.utils.MyConstant.METHODS;
+import static com.example.dreamproject.utils.MyConstant.ORIGINS;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

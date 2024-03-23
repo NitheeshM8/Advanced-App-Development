@@ -1,7 +1,7 @@
 package com.example.dreamproject.controller;
 
 import org.springframework.web.bind.annotation.RestController;
-import com.example.dreamproject.models.Boat;
+import com.example.dreamproject.entity.Boat;
 import com.example.dreamproject.service.BoatService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

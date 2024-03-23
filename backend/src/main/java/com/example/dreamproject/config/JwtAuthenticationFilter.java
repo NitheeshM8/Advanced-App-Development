@@ -1,4 +1,4 @@
-package com.example.boat.config;
+package com.example.dreamproject.config;
 
 import static org.springframework.http.HttpHeaders.AUTHORIZATION;
 
@@ -14,7 +14,7 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.example.boat.utils.JwtUtil;
+import com.example.dreamproject.utils.JwtUtil;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

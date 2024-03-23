@@ -1,10 +1,10 @@
-package com.example.boat.config;
+package com.example.dreamproject.config;
 
-import static com.example.boat.utils.MyConstant.JWT_BEARER_FORMAT;
-import static com.example.boat.utils.MyConstant.JWT_DESCRIPTION;
-import static com.example.boat.utils.MyConstant.JWT_LOCALHOST_URL;
-import static com.example.boat.utils.MyConstant.JWT_SCHEME;
-import static com.example.boat.utils.MyConstant.JWT_SECURITY_SCHEME_NAME;
+import static com.example.dreamproject.utils.MyConstant.JWT_BEARER_FORMAT;
+import static com.example.dreamproject.utils.MyConstant.JWT_DESCRIPTION;
+import static com.example.dreamproject.utils.MyConstant.JWT_LOCALHOST_URL;
+import static com.example.dreamproject.utils.MyConstant.JWT_SCHEME;
+import static com.example.dreamproject.utils.MyConstant.JWT_SECURITY_SCHEME_NAME;
 import static io.swagger.v3.oas.models.security.SecurityScheme.Type.HTTP;
 
 import java.util.List;

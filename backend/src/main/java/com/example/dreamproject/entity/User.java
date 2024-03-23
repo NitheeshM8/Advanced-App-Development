@@ -1,4 +1,4 @@
-package com.example.dreamproject.models;
+package com.example.dreamproject.entity;
 
 import java.util.Collection;
 import java.util.List;
@@ -7,7 +7,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.example.boat.enumerated.Role;
+import com.example.dreamproject.enumerated.Role;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

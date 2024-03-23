@@ -1,4 +1,4 @@
-package com.example.dreamproject.models;
+package com.example.dreamproject.entity;
 
 import java.sql.Date;
 

@@ -2,7 +2,7 @@ package com.example.dreamproject.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import com.example.dreamproject.dto.response.UserDetailsResponse;
-import com.example.dreamproject.models.User;
+import com.example.dreamproject.entity.User;
 import com.example.dreamproject.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import java.util.List;

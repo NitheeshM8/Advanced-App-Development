@@ -1,6 +1,6 @@
 package com.example.dreamproject.controller;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.dreamproject.models.Booking;
+import com.example.dreamproject.entity.Booking;
 import com.example.dreamproject.service.BookingService;
 
 import io.swagger.v3.oas.annotations.Operation;
