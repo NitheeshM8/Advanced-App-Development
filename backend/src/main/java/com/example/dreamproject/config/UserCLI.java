@@ -11,6 +11,7 @@ import lombok.RequiredArgsConstructor;
 
 @Component
 @RequiredArgsConstructor
+@SuppressWarnings("null")
 public class UserCLI implements CommandLineRunner {
     @Autowired
     UserRepo usersRepository;
